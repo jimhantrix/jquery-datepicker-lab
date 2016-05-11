@@ -24,12 +24,10 @@ $("#datepicker").on("change", function(){
 	daysLeft();
 
 // 14. Now, instead of console.log, let's update the HTML string every time the user clicks a date.
-// Use jQuery to write the result string in the element with an id of 'result'
+// Use jQuery to write the result string in the element with an id of 'result
 
-// _____
 
 });
 
 // UH-OH! We defined the variable inside daysLeft and we need the same data in our .on('change', function(){})
 // 15. Define the variable globally and leave your local variable references alone.
-
